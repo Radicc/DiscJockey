@@ -2,7 +2,7 @@
   "name": "discjockey",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://radicc.github.io/DiscJockey",
+  "homepage": "https://radicc.github.io/DiscJockey/",
   "type": "module",
   "scripts": {
     "dev": "vite",
