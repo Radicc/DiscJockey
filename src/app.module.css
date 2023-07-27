@@ -1,22 +1,22 @@
 .container {
   @apply h-screen bg-gray-950;
 }
-.searchContainer {
-  @apply flex justify-center items-center w-full h-1/4;
+.authButtonsContainer {
+  @apply absolute right-0 m-2 px-3 py-1 border text-gray-200 border-gray-400 rounded-2xl cursor-pointer;
+  @apply hover:bg-gray-900 hover:text-gray-100 hover:border-gray-100;
+}
+.authButton {
 }
 .itemContainer {
-  @apply flex flex-col items-center gap-5;
+  @apply flex flex-col items-center;
 }
 .songContainer {
-  @apply flex w-64 gap-8 items-center;
-}
-.search {
-  @apply w-80 h-12 bg-gray-100 rounded-2xl px-5;
+  @apply flex w-80 px-10 py-5 gap-8 items-center rounded-xl;
+  @apply hover:bg-gray-900;
 }
 .avatar {
   @apply w-24 rounded-lg;
 }
 .title {
   @apply w-32 text-gray-200 text-base text-center;
-  @apply hover:underline;
 }

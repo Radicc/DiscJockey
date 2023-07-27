@@ -1,0 +1,6 @@
+.searchContainer {
+  @apply flex justify-center items-center w-full h-1/4;
+}
+.search {
+  @apply w-80 h-12 bg-gray-100 rounded-xl px-5;
+}
