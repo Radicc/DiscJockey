@@ -1,0 +1,39 @@
+.leftPage {
+  @apply flex flex-col pt-32;
+  width: 70%;
+}
+.titleContainer {
+  @apply flex w-full;
+}
+.sloganQRContaienr {
+  @apply flex items-center w-full gap-12;
+}
+.discJockeyLogo {
+  @apply w-1/3;
+}
+.flexContainer {
+  @apply flex;
+}
+.disc {
+  @apply text-indigo-700;
+  font-size: 8rem;
+}
+.jockey {
+  @apply text-gray-600;
+  font-size: 8rem;
+}
+.slogan {
+  @apply text-gray-300 pt-20 h-full;
+  font-size: 3rem;
+}
+.sloganTitleContainer {
+  @apply flex;
+}
+.discSlogan {
+  @apply text-indigo-700;
+  font-size: 3rem;
+}
+.jockeySlogan {
+  @apply text-gray-600;
+  font-size: 3rem;
+}

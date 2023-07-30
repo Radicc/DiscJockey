@@ -1,0 +1,46 @@
+.container {
+  @apply flex px-32 bg-gray-950 h-screen;
+}
+
+.rightPage {
+  @apply flex flex-col justify-center items-center;
+  width: 30%;
+}
+.loginContainer {
+  @apply flex flex-col justify-center items-center gap-5 w-96 py-5  bg-gray-800 rounded-xl;
+}
+.inputContainer {
+  @apply flex h-1/2  flex-col justify-center items-center w-full gap-5;
+}
+.loginInputs {
+  @apply w-4/5 h-14 px-4 rounded-md outline-indigo-500 outline-dashed;
+}
+
+.buttonsContainer {
+  @apply flex h-1/2 flex-col justify-center items-center w-full gap-2;
+}
+.flexContainer {
+  @apply flex flex-col justify-center items-center w-full gap-2;
+}
+.loginButton {
+  @apply w-4/5 px-8 py-2 bg-indigo-500 rounded-md text-xl text-gray-800;
+  @apply hover:bg-indigo-400;
+}
+@keyframes loginButtonAni {
+  0% {
+  }
+  100% {
+  }
+}
+
+.forgotPassword {
+  @apply w-44 text-sm cursor-pointer text-center text-gray-100;
+  @apply hover:underline;
+}
+.line {
+  @apply w-11/12 bg-cyan-50 h-0.5 rounded-lg;
+}
+.newProfile {
+  @apply w-3/5 px-6 py-2 mt-3 bg-emerald-300 rounded-md text-base text-gray-800;
+  @apply hover:bg-emerald-200;
+}
